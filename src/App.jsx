@@ -1040,9 +1040,7 @@ export default function App() {
     return (
       <div className="min-h-screen bg-gradient-to-b from-brand-50 via-white to-coyote-50 flex items-center justify-center p-4">
         <div className="max-w-md w-full bg-white rounded-2xl shadow-lg border border-gray-200 p-8 text-center">
-          <div className="w-20 h-20 mx-auto mb-4 bg-brand-100 rounded-full flex items-center justify-center">
-            <GraduationCap className="w-10 h-10 text-brand-600" />
-          </div>
+          <img src="/laughing-coyote-logo.jpg" alt="Laughing Coyote Education" className="w-24 h-24 mx-auto mb-4 rounded-full object-cover shadow-md" />
           <p className="text-gray-500 text-sm mb-1">{t('welcome', lang)}</p>
           <h1 className="text-2xl font-bold text-gray-800 mb-1">{t('appTitle', lang)}</h1>
           <p className="text-brand-600 font-medium mb-6">{t('appSubtitle', lang)}</p>
@@ -1075,9 +1073,7 @@ export default function App() {
         <div className="max-w-5xl mx-auto px-4 py-3">
           <div className="flex items-center justify-between flex-wrap gap-2">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-brand-100 rounded-full flex items-center justify-center">
-                <GraduationCap className="w-5 h-5 text-brand-600" />
-              </div>
+              <img src="/laughing-coyote-logo.jpg" alt="Laughing Coyote Education" className="w-8 h-8 rounded-full object-cover" />
               <div>
                 <h1 className="text-lg font-bold text-gray-800 leading-tight">{t('appTitle', lang)}</h1>
                 <p className="text-xs text-gray-500">{studentName}</p>
@@ -1179,9 +1175,7 @@ export default function App() {
       <footer className="border-t border-gray-200 bg-white mt-8">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between flex-wrap gap-2">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-brand-100 rounded-full flex items-center justify-center">
-              <GraduationCap className="w-4 h-4 text-brand-600" />
-            </div>
+            <img src="/laughing-coyote-logo.jpg" alt="Laughing Coyote Education" className="w-6 h-6 rounded-full object-cover" />
             <span className="text-sm font-medium text-gray-600">Laughing Coyote Education</span>
           </div>
           <div className="text-right">
