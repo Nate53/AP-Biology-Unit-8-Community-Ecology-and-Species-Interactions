@@ -730,7 +730,7 @@ Donde α = tasa de natalidad de presas, β = tasa de depredación, γ = tasa de 
 
 **The Ecological Niche**
 
-An organism's **ecological niche** is the sum of all the biotic and abiotic resources it uses in its environment — its habitat, food sources, activity times, temperature tolerance, nesting sites, and more. Think of it as the organism's "ecological address and occupation."
+An organism's **ecological niche** is the sum of all the biotic and abiotic resources it uses and the role it plays in its environment — its food sources, activity times, temperature tolerance, nesting sites, interactions with other species, and more. A useful shorthand: if an organism's **habitat** is its "address" (where it lives), then its **niche** is its "job" or "occupation" (what it does there and how it fits into the community).
 
 The **fundamental niche** is the full range of conditions and resources a species COULD use in the absence of competition. The **realized niche** is the portion it ACTUALLY uses when competitors are present — always smaller than the fundamental niche.
 
