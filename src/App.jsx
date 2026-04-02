@@ -336,13 +336,13 @@ function PredatorPreySimulator({ lang }) {
         </div>
       </div>
 
-      <ResponsiveContainer width="100%" height={300}>
-        <LineChart data={data}>
+      <ResponsiveContainer width="100%" height={340}>
+        <LineChart data={data} margin={{ bottom: 30 }}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="time" label={{ value: lang === 'es' ? 'Tiempo' : 'Time', position: 'bottom' }} />
+          <XAxis dataKey="time" label={{ value: lang === 'es' ? 'Tiempo' : 'Time', position: 'bottom', offset: -5 }} />
           <YAxis label={{ value: lang === 'es' ? 'Población' : 'Population', angle: -90, position: 'insideLeft' }} />
           <Tooltip />
-          <Legend />
+          <Legend verticalAlign="top" />
           <Line type="monotone" dataKey="prey" stroke="#22c55e" name={lang === 'es' ? 'Presa (Liebre)' : 'Prey (Hare)'} dot={false} strokeWidth={2} />
           <Line type="monotone" dataKey="predator" stroke="#ef4444" name={lang === 'es' ? 'Depredador (Lince)' : 'Predator (Lynx)'} dot={false} strokeWidth={2} />
         </LineChart>
