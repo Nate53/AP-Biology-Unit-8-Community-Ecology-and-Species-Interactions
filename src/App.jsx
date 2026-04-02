@@ -807,6 +807,10 @@ Cuando dos especies competidoras viven en la misma área, sus rasgos divergen co
       },
       correct: 1,
       explanation: { en: "This is secondary succession because the soil is already intact. It proceeds faster because the soil already contains seeds, root systems, fungal networks, and nutrients.", es: "Esta es sucesión secundaria porque el suelo ya está intacto. Procede más rápido porque el suelo ya contiene semillas, raíces, redes fúngicas y nutrientes." }
+    },
+    diveDeeper: {
+      url: "https://the-story-of-krakatau-a-case-study.vercel.app/",
+      label: { en: "The Story of Krakatau — A Case Study in Ecological Succession", es: "La Historia de Krakatau — Un Caso de Estudio en Sucesión Ecológica" }
     }
   },
   chunk5: {
@@ -1126,6 +1130,16 @@ export default function App() {
                   explanation={chunk.cc.explanation[lang]}
                   lang={lang}
                 />
+
+                {chunk.diveDeeper && (
+                  <div className="mt-3 text-sm text-brand-600 font-medium">
+                    <a href={chunk.diveDeeper.url} target="_blank" rel="noopener noreferrer"
+                      className="flex items-center gap-1 hover:underline">
+                      <ArrowRight className="w-4 h-4" /> {t('diveDeeper', lang)}: {chunk.diveDeeper.label[lang]}
+                    </a>
+                  </div>
+                )}
+
                 <TextbookReference lang={lang} />
               </div>
             ))}
