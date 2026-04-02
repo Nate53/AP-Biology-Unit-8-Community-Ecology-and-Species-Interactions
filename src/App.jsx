@@ -771,10 +771,10 @@ Cuando dos especies competidoras viven en la misma área, sus rasgos divergen co
     cc: {
       question: { en: "Five species of warblers feed on insects in the same spruce trees. How do they avoid competitive exclusion?", es: "Cinco especies de reinitas se alimentan de insectos en los mismos árboles de abeto. ¿Cómo evitan la exclusión competitiva?" },
       options: {
-        en: ["They feed at different times of day", "They partition resources by foraging in different zones of the tree", "They are all mutualists with each other", "They are actually the same species"],
-        es: ["Se alimentan en diferentes momentos del día", "Particionan los recursos alimentándose en diferentes zonas del árbol", "Son todos mutualistas entre sí", "Son en realidad la misma especie"]
+        en: ["They are all mutualists with each other", "They feed at different times of day", "They are actually the same species", "They partition resources by foraging in different zones of the tree"],
+        es: ["Son todos mutualistas entre sí", "Se alimentan en diferentes momentos del día", "Son en realidad la misma especie", "Particionan los recursos alimentándose en diferentes zonas del árbol"]
       },
-      correct: 1,
+      correct: 3,
       explanation: { en: "MacArthur's warblers demonstrate resource partitioning. Each species forages in a different part of the spruce tree, reducing direct competition. This allows their realized niches to be sufficiently different for coexistence.", es: "Las reinitas de MacArthur demuestran la partición de recursos. Cada especie busca alimento en una parte diferente del árbol." }
     }
   },
@@ -853,10 +853,10 @@ Los lobos fueron eliminados para 1926. En 1995, 31 lobos fueron reintroducidos. 
     cc: {
       question: { en: "When wolves were reintroduced to Yellowstone, elk decreased, willows regrew, and beavers returned. What type of ecological control does this demonstrate?", es: "Cuando los lobos fueron reintroducidos en Yellowstone, los alces disminuyeron, los sauces volvieron a crecer y los castores regresaron. ¿Qué tipo de control ecológico es este?" },
       options: {
-        en: ["Bottom-up control — nutrients drove the change", "Top-down control — predators drove the change from the highest trophic level", "Density-dependent regulation", "Competitive exclusion"],
-        es: ["Control de abajo hacia arriba — los nutrientes impulsaron el cambio", "Control de arriba hacia abajo — los depredadores impulsaron el cambio", "Regulación dependiente de la densidad", "Exclusión competitiva"]
+        en: ["Density-dependent regulation", "Competitive exclusion", "Top-down control — predators drove the change from the highest trophic level", "Bottom-up control — nutrients drove the change"],
+        es: ["Regulación dependiente de la densidad", "Exclusión competitiva", "Control de arriba hacia abajo — los depredadores impulsaron el cambio", "Control de abajo hacia arriba — los nutrientes impulsaron el cambio"]
       },
-      correct: 1,
+      correct: 2,
       explanation: { en: "This is top-down control. The wolves (top predators) reduced elk herbivory, which allowed plants to recover, cascading further down to benefit beavers, birds, and river ecosystems.", es: "Este es control de arriba hacia abajo. Los lobos redujeron el herbivorismo de los alces, permitiendo que las plantas se recuperaran." }
     }
   }
